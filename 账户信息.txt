@@ -1,0 +1,42 @@
+所有的会计分录，
+
+清算 、信用卡 、  对公、对手、 借记  、 贷记 、 冲账
+
+检查APM 个个组件的运行原理，排障，每个组件的调优配置
+
+
+
+
+
+jemter
+Constant Timer是设置一个固定都是时间，来模拟用户思考时间；需要注意的就是定时器的作用域
+
+
+
+
+数据操作与事务控制
+insert  into 表名   （） values （） 
+update 表名 set     
+delete from 表名  where
+merge  into A using B on A.a =B.b
+when matched then 
+update A set
+when not matched then 
+insert  into B () values () 
+commit
+rollback to 
+savepoint
+管理锁
+
+---------
+DML 数据操作语言 insert、update、delete、merge         
+事务：是一组相关的DML语句的逻辑组合，事务控制主要包括  commit   rollback、savepoint
+
+
+github  账号
+zhuwei1234
+邮箱   weareyou12@163.com
+zw123123!
+
+https://github.com/zhuwei1234/zz.git
+
